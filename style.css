@@ -1,0 +1,105 @@
+/* all */
+*{
+	margin: 0;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+body{
+	font-family: sans-serif;
+	color: white;
+	background-color: black;
+}
+@keyframes tap{
+	0% {opacity: 1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+/* all / js help animation */
+@keyframes fall{
+	0%{opacity: 1;}
+	100%{opacity: 0;}
+}
+@keyframes rise{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+.fall{
+	opacity: 0;
+	animation: fall 1.5s;
+	animation-iteration-count: 1;
+}
+.rise{
+	opacity: 1;
+	animation: rise 1.5s;
+	animation-iteration-count: 1;
+}
+
+/*canvas xd*/
+#canvas{
+	position: absolute;
+}
+
+
+/* main */
+.box{
+	cursor: pointer;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	background: transparent;
+	border: none;
+}
+.tap{
+	animation: tap 2s infinite;
+	opacity: 1;
+	letter-spacing: 3px;
+}
+
+
+/* projects */
+.tap2{
+	animation: tap 2s infinite;
+}
+.content{
+    padding-top: 10%;
+    cursor: pointer;
+	background: transparent;
+	border: none; 
+}
+.table{
+	margin: 10px;
+}
+.table div{
+    display: inline-flex;
+}
+.p-element{
+	cursor: pointer;
+	font-size: 120%;
+	margin: 5px;
+	border: 2px solid white;
+	border-radius: 20px;
+	padding: 40px 80px;
+	max-height: 120px;
+	max-width: 170px;
+}
+.main{
+	margin-top: 5%;
+}
+.other{
+	margin-top: 10%;
+}
+.co{
+	position: absolute;
+	bottom: 0;
+}
+.img{
+	cursor: pointer;
+	outline: none;
+	margin: 5px;
+	max-height: 50px;
+	max-width: 50px;
+}
