@@ -24,14 +24,14 @@ body{
     text-shadow: 2px 2px #6e9600;
 }
 .content-div-element{
-    margin-bottom: 10em;
+    margin-bottom: 7em;
 }
 .content-div{
     text-align: center;
     margin-top: 4em;
 }
 .tech-blocks .tech-block{
-    color: black;
+    vertical-align: top;
     display: inline-block;
     height: 8em;
     width: 15em;
@@ -42,4 +42,19 @@ body{
     margin-left: 1.5em;
     margin-right: 1.5em;
     background-color: #c8c8c8;
+}
+.tech-title{
+    color: black;
+    margin-top: 6px;
+    font-size: 110%;
+}
+.tech-list{
+    margin-left: 2em;
+    margin-top: 7px;
+    text-align: left;
+}
+.tech-list h5{
+    font-size: 100%;
+    color: black;
+    margin: 2px;
 }
