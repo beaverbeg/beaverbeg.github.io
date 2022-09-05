@@ -5,15 +5,11 @@
 }
 body{
     background-color: #2a2a2a;
-    user-select: none;
+    /*user-select: none;
     -ms-user-select: none;
     -moz-user-select: none;
     -ms-touch-select: none;
-    -webkit-user-select: none;
-    min-height: 100vh;
-}
-html{
-    height: 100%;
+    -webkit-user-select: none;*/
 }
 .main-div{
     text-align: center;
@@ -24,11 +20,15 @@ html{
     text-shadow: 2px 2px #003ba8;
 }
 .cool-span2{
+    color:#41f35c;
+    text-shadow: 2px 2px #007712;
+}
+.cool-span3{
     color: #c3e75f;
     text-shadow: 2px 2px #6e9600;
 }
 .content-div-element{
-    margin-bottom: 7em;
+    margin-bottom: 6em;
 }
 .content-div{
     text-align: center;
@@ -39,7 +39,7 @@ html{
     display: inline-block;
     height: 8em;
     width: 15em;
-    box-shadow: 1px 1px 30px #c3e75f;
+    box-shadow: 1px 1px 20px #c3e75f;
     outline: 3px solid black;
     border-radius: 25px;
     margin-top: 3em;
@@ -78,8 +78,40 @@ html{
 }
 footer{
     min-height: 4em;
-
 }
+
+.project-holder{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    background-color: #c8c8c8;
+    height: 25em;
+    max-width: 23em;
+    text-align: left;
+    border-radius: 20px;
+    outline: 2px solid black;
+    box-shadow: 1px 1px 20px #41f35c;
+}
+.project-holder h2, h3{
+    color: black;
+}
+.project-holder .project-link{
+    margin-top: 10px;
+}
+.project-holder .project-desc{
+}
+.project-holder a{
+    color: blue;
+}
+.project-holder .codes-link{
+    font-size: 90%;
+    color: #0851bf;
+    margin-top: 2em;
+}
+.project-text-separator{
+    margin: 20px;
+}
+
 
 
 /* scroll bar */
