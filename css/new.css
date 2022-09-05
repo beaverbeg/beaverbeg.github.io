@@ -10,7 +10,7 @@ body{
     -moz-user-select: none;
     -ms-touch-select: none;
     -webkit-user-select: none;
-    height: 100%;
+    min-height: 100vh;
 }
 html{
     height: 100%;
@@ -64,8 +64,8 @@ html{
 }
 .contact-div{
     vertical-align: bottom;
-    bottom: 0;
     position: fixed;
+    bottom: 0;
     background-color: #1e1e1e;
     width: 100%;
     height: 4em;
@@ -75,4 +75,27 @@ html{
 .contact-div .contact-title{
     margin-left: 20px;
     margin-top: 0.5em;
+}
+footer{
+    min-height: 4em;
+
+}
+
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #bbd9fb;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 12px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
