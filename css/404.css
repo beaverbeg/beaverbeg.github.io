@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+html{
+    height: 100vh;
+}
+body{
+    height: 100vh;
+    background-color: #1C1C1C;
+}
+.main-div{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+.main-div span{
+    word-spacing: 0;
+}
+.main-text{
+    font-size: 150%;
+}
+
+.number{
+    animation: color-animation 4s linear infinite;
+}
+
+.num1{
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+}
+.num2{
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+}
+.num3{
+    --color-1: #3D8DAE;
+    --color-2: #E4A9A8;
+    --color-3: #DF8453;
+}
+
+@keyframes color-animation {
+    0% {color: var(--color-1)}
+    32% {color: var(--color-1)}
+    33% {color: var(--color-2)}
+    65% {color: var(--color-2)}
+    66% {color: var(--color-3)}
+    99% {color: var(--color-3)}
+    100% {color: var(--color-1)}
+}
+
+
+.error-text{
+    font-size: 350%;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
