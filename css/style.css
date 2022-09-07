@@ -1,95 +1,153 @@
 *{
-    margin: 0;
     font-family: sans-serif;
+    margin: 0;
+    color: #c8c8c8;
 }
 body{
-    background: rgb(255,153,0);
-    background: linear-gradient(90deg, rgba(255,153,0,1) 0%, rgba(164,171,0,1) 35%, rgba(155,255,0,1) 100%);
-    color: white;
-    outline: none;
-}
-.header{
-    text-align: center;
-    margin-bottom: 3em;
-}
-.content{
-    margin-top: 5em;
+    background-color: #1C1C1C;
     user-select: none;
     -ms-user-select: none;
     -moz-user-select: none;
+    -ms-touch-select: none;
     -webkit-user-select: none;
 }
-.element{
-    color: white;
-    height: 25em;
-    width: 22em;
-    margin: 10px;
-}
-.blocks{
+.main-div{
     text-align: center;
+    margin: 15px;
 }
-
-.blocks div{
+.cool-span{
+    color: #2F6CDB;
+    text-shadow: 2px 2px #003ba8;
+}
+.cool-span2{
+    color:#41f35c;
+    text-shadow: 2px 2px #007712;
+}
+.cool-span3{
+    color: #c3e75f;
+    text-shadow: 2px 2px #6e9600;
+}
+.content-div-element{
+    margin-bottom: 6em;
+}
+.content-div{
+    text-align: center;
+    margin-top: 4em;
+}
+.tech-blocks .tech-block{
+    vertical-align: top;
+    display: inline-block;
+    height: 8em;
+    width: 15em;
+    box-shadow: 1px 1px 20px #c3e75f;
+    outline: 3px solid black;
+    border-radius: 25px;
+    margin-top: 3em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    background-color: #c8c8c8;
+}
+.tech-title{
+    color: black;
+    margin-top: 6px;
+    font-size: 110%;
+}
+.tech-list{
+    margin-left: 2em;
+    margin-top: 7px;
     text-align: left;
-    left: 50%;
-    display: inline-block;
 }
-.links{
-    margin-top: 50px;
-}
-.links div{
-    display: inline-block;
-}
-.links img{
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-}
-.projects{
+.tech-list h5{
     font-size: 100%;
-}
-.projects .p-link{
-    list-style-type: none;
-    display: list-item;
-    cursor: pointer;
-}
-.projects h3{
-    margin: 7px;
-    margin-bottom: 20px;
-}
-.p-desc{
-    margin: 10px;
-    margin-bottom: 30px;
-}
-.p-link{
-    margin: 10px;
-    color: rgb(240, 240, 240);
-}
-.p-link-other{
-    font-size: 110%;
-}
-.a-k-link{
-    color: white;
-}
-.aboutme li{
-    margin: 5px;
-    font-size: 110%;
+    color: black;
+    margin: 2px;
 }
 
 
-@media screen and (max-device-width: 410px){
-    
-    .projects{
-        font-size: 90%;
-    }
-    .aboutme {
-        font-size: 90%;
-    }
-    .element{
-        color: white;
-        height: 22em;
-        width: 19em;
-        margin: 10px;
-    }
 
+.contact-div{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 3px;
+    text-align: left;
+    background-color: #111111;
+    white-space: nowrap;
+}
+.contact-div .contact-title{
+    font-size: 130%;
+    margin-right: 5px
+}
+.contact-div a{
+    color: rgb(98, 98, 255)
+}
+.contact-div p{
+    display: inline-block;
+}
+
+.project-holder{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    background-color: #c8c8c8;
+    height: 20em;
+    max-width: 23em;
+    text-align: left;
+    border-radius: 20px;
+    outline: 2px solid black;
+    box-shadow: 1px 1px 20px #41f35c;
+    overflow: auto;
+}
+.project-holder h2, h3{
+    display: inline-block;
+    color: black;
+}
+.project-holder .project-link{
+    display: inline-block;
+    margin-top: 10px;
+}
+.project-holder .project-desc{
+    display: inline-block;
+}
+.project-holder a{
+    color: #00c;
+    text-decoration: none;
+    display: inline-block;
+}
+.project-holder a:hover, a:focus{
+    color: #0c0;
+}
+.project-holder a:active{
+    color: #516e00;
+}
+.project-holder .codes-link{
+    font-size: 90%;
+    color: #0851bf;
+    margin-top: 2em;
+    display: inline-block;
+}
+.project-text-separator{
+    display: inline-block;
+    margin: 2em;
+    margin-top: 1em;
+}
+
+
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #bbd9fb;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 12px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
