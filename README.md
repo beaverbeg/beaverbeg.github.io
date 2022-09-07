@@ -1,5 +1,3 @@
-check my website: https://beaverbeg.xyz
-
 i know some programming languages like js py cpp and more
 
 
