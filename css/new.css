@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+body{
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+}
