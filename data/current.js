@@ -1,4 +1,4 @@
-data = `
+var data = `
 {
 "main":[
     {"link": "https://beaverbeg.xyz"},
@@ -11,10 +11,6 @@ data = `
 "cube":[
     {"link": "https://cube.beaverbeg.xyz"},
     {"desc": "3D cube generator made in three.js"}
-],
-"codes":[
-    {"link": "https://codes.beaverbeg.xyz"},
-    {"desc": "Website for my projects"}
 ],
 "pass":[
     {"link": "https://pass.beaverbeg.xyz"},

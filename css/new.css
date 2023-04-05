@@ -7,3 +7,30 @@ body{
     background-color: rgb(10, 10, 10);
     width: 100%;
 }
+.holder{
+    margin-top: 1.5em;
+    text-align: center;
+}
+.proj-holder{
+    margin-top: 1em;
+    text-align: left;
+    left: 50%;
+    display: inline-block;
+}
+.links-holder{
+    margin-top: 1em;
+    text-align: left;
+    left: 50%;
+    display: inline-block;
+}
+.proj-title{
+    margin-top: 3em;
+    font-size: 160%;
+}
+.links-title{
+    margin-top: 2em;
+    font-size: 160%;
+}
+a{
+    color:rgb(5, 0, 71)
+}
