@@ -1,40 +1,56 @@
-var mydata = JSON.parse(data);
-console.log("page is loaded");
+var d = data;
 
-var currentLink =        mydata.main[0].link;
-var currentFartbinLink = mydata.fartbin[0].link;
-var currentWebpassLink = mydata.pass[0].link;
-var currentCubeLink =    mydata.cube[0].link;
-var currentCodesLink =   mydata.codes[0].link;
+var mydata = JSON.parse(d);
 
-var currentFartbinDesc = mydata.fartbin[1].desc;
-var currentWebpassDesc = mydata.pass[1].desc;
-var currentCubeDesc =    mydata.cube[1].desc;
-document.getElementById("fartbin-desc").innerHTML = "- "+currentFartbinDesc;
-document.getElementById("cube-desc").innerHTML =    "- "+currentCubeDesc;
-document.getElementById("pass-desc").innerHTML =    "- "+currentWebpassDesc;
+var cLink =        mydata.main[0].link;
+var cFartbinLink =   mydata.fartbin[0].link;
+var cWebpassLink =   mydata.pass[0].link;
+var cCubeLink =      mydata.cube[0].link;
+var cTheboxLink =    mydata.tb[0].link;
+var cRockpaperLink = mydata.rps[0].link;
+
+var cFartbinDesc =   mydata.fartbin[1].desc;
+var cWebpassDesc =   mydata.pass[1].desc;
+var cCubeDesc =      mydata.cube[1].desc;
+var cTheboxDesc =    mydata.tb[1].desc;
+var cRockpaperDesc = mydata.rps[1].desc;
+
+try{
+    document.getElementById("fartbin-desc").innerHTML = "- "+cFartbinDesc;
+    document.getElementById("pass-desc").innerHTML =    "- "+cWebpassDesc;
+    document.getElementById("cube-desc").innerHTML =    "- "+cCubeDesc;
+    document.getElementById("tb-desc").innerHTML =      "- "+cTheboxDesc;
+    document.getElementById("rps-desc").innerHTML =     "- "+cRockpaperDesc;
+}
+catch(err){
+    console.log("could not add description to projects\n");
+}
 
 
 function addCurrentLink(link, id){
     var linkToAdd;
     if(link=="beaverbeg"){
-        linkToAdd = currentLink;
+        linkToAdd = cLink;
     }
     if(link=="fartbin"){
-        linkToAdd = currentFartbinLink;
+        linkToAdd = cFartbinLink;
     }
     if(link=="webpass"){
-        linkToAdd = currentWebpassLink;
+        linkToAdd = cWebpassLink;
     }
     if(link=="cube"){
-        linkToAdd = currentCubeLink;
+        linkToAdd = cCubeLink;
     }
-    if(link=="codes"){
-        linkToAdd = currentCodesLink;
+    if(link=="tb"){
+        linkToAdd = cTheboxLink;
+    }
+    if(link=="rps"){
+        linkToAdd = cRockpaperLink;
     }
 
     document.getElementById(id).href = linkToAdd;
 }
+
 
 function NewTab(link){
     window.open(link+'','_blank')
