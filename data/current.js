@@ -1,7 +1,7 @@
 var data = `
 {
 "main":[
-    {"link": "https://beaverbeg.xyz"},
+    {"link": "https://beaverbeg.github.io"},
     {"desc": "My official website"}
 ],
 "fartbin":[
@@ -9,11 +9,11 @@ var data = `
     {"desc": "Note saving application"}
 ],
 "cube":[
-    {"link": "https://cube.beaverbeg.xyz"},
+    {"link": "https://beaverbeg.github.io/cube"},
     {"desc": "3D cube generator made in three.js"}
 ],
 "pass":[
-    {"link": "https://pass.beaverbeg.xyz"},
+    {"link": " https://beaverbeg.github.io/Web-password-generator/"},
     {"desc": "Simple password generator"}
 ],
 "tb":[
