@@ -23,7 +23,7 @@ var data = `
 "rps":[
     {"link": "https://rps.beaverbeg.repl.co"},
     {"desc": "Rock paper scissors game"}
-]
+],
 "somegame":[
     {"link": "https://beaverbeg.github.io/somegame/"}
     {"desc": "2d random game"}
