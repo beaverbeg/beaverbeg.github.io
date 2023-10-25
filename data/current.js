@@ -20,10 +20,6 @@ var data = `
     {"link": "https://tb.beaverbeg.repl.co"},
     {"desc": "Simple js canvas game"}
 ],
-"rps":[
-    {"link": "https://rps.beaverbeg.repl.co"},
-    {"desc": "Rock paper scissors game"}
-],
 "somegame":[
     {"link": "https://beaverbeg.github.io/somegame/"},
     {"desc": "2d random game"}
