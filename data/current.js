@@ -16,10 +16,6 @@ var data = `
     {"link": " https://beaverbeg.github.io/Web-password-generator/"},
     {"desc": "Simple password generator"}
 ],
-"tb":[
-    {"link": "https://tb.beaverbeg.repl.co"},
-    {"desc": "Simple js canvas game"}
-],
 "somegame":[
     {"link": "https://beaverbeg.github.io/somegame/"},
     {"desc": "2d random game"}
